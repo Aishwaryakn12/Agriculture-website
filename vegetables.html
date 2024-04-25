@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+h3.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+body {
+    background-image: url('vv.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+h1.center{
+    text-align:center;
+    color:magenta;
+    text-decoration:underline;
+    font-style:italic;
+}
+.contrast {filter: contrast(180%);}
+img:hover {
+  transform: scaleX(-1);
+}a
+div:hover {
+  width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="center" style="background-color:powderblue;"><marquee scrollamount="20" direction="right">VEGETABLES:  BITTER GOURD, CUCUMBER ,  RIDGE GOURD ,CARROT</marquee></h1>
+<table cellpadding="10">
+ <tr>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="bitter.jpg">
+      <img  class="contrast" src="bitter.jpg" alt="mize" width="600" height="400">
+    </a>
+    <h3 class="desc">BITTER GOURD:it is an important vegetable crop and is grown for its immature tuberculate fruits 
+      which have a unique bitter taste.
+      Bitter gourd can be grown on well drained sandy to sandy loam; medium black soils rich in organic matter. <br>
+      Advantages:
+      Bitter gourd has antioxidant and antimicrobial properties, which help excretion toxins from our blood and liver and heal many liver conditions.
+       Regular consumption of bitter melon improves our gut health and treats many intestinal conditions, including constipation and irritable bowel syndrome (IBS).
+
+</h3>
+  </div>
+</div>
+</tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cucumber.jpg">
+      <img  class="contrast" src="cucumber.jpg" alt="rice" width="600" height="400">
+    </a>
+    <h3 class="desc">CUCUMBER: (Cucumis sativus), creeping plant of the gourd family (Cucurbitaceae), widely cultivated for its edible fruit. The nutritional value of the cucumber is low, 
+      but its delicate flavour makes it popular for salads and relishes.<br>
+      Advantages:<br>
+      It's high in beneficial nutrients Also, cucumbers are low in calories and contain a good amount of water and soluble fiber, 
+      making them ideal for promoting hydration and aiding in weight loss.
+    </h3>
+  </div>
+</div>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="r.jpg">
+      <img  class="contrast" src= "r.jpg" alt="wheat" width="600" height="400">
+    </a>
+    <h3 class="desc">RIDGE GOURD:it is  also known as luffa, is a popular vegetable that is grown in many parts of the world. It is a good source of vitamins A and C, as well as dietary fiber.
+     Advantages:The vegetable is a storehouse of vitamin C, iron, magnesium, riboflavin, thiamine, and zinc which helps reduce inflammationint he body. - The ridge gourd is a rich source of iron and manganese. 
+     It is anti-inflammatory and is high in beta-carotene and thus is known to enhance eye health.
+    </br></h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="carrot.jpg">
+      <img class="contrast" src="carrot.jpg" alt="pea" width="600" height="400">
+    </a>
+    <h3 class="desc">CARROT: it is a herbaceous plant belonging to the Apiaceae family. It features an erect, slender stem that reaches a height of about one-two foot. It also features feathery, 
+      finely divided leaves that grow in a rosette pattern close to the ground.
+      Advantages:Help Promote Healthy Vision,Aids Weight Loss,Improves Skin Health,Helps Improve Immunity,May Support Heart Health.
+      Digestive Health,Diabetes Management,May Help Bones .
+
+    </h3>
+  </div>
+</div>
+</tr>
+</table>
+</body>
+</html>

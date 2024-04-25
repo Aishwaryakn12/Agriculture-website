@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+h3.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+body {
+    background-image: url('g.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+h1.center{
+    text-align:center;
+    color:magenta;
+    text-decoration:underline;
+    font-style:italic;
+}
+.contrast {filter: contrast(180%);}
+img:hover {
+  transform: scaleX(-1);
+}
+div:hover {
+  width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="cente" style="background-color:powderblue;"><marquee scrollamount="20" direction="right">FRUITS:  APPLE, ORANGE , POMEGRANATE  ,GRAPES</marquee></h1>
+<table cellpadding="10">
+ <tr>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Apple.jpg">
+      <img  class="contrast" src="Apple.jpg" alt="mize" width="600" height="400">
+    </a>
+    <h3 class="desc">APPLE: it is fruit of the genus Malus, in the rose family, the most widely cultivated tree fruit. Malus species are native to the temperate zones of both hemispheres.
+         They require a considerable period of dormancy, well-drained soil, careful pruning in early years of growth, and a rigorous pest-management program for mature trees. 
+        The apple is one of the pome (fleshy) fruits. 
+        
+
+</h3>
+  </div>
+</div>
+</tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="orange.jpg">
+      <img  class="contrast" src="orange.jpg" alt="rice" width="600" height="400">
+    </a>
+    <h3 class="desc">ORANGE:it is a fruit of various citrus species in the family Rutaceae.the orange originated in a region encompassing Southern China, Northeast India, and Myanmar.
+        Orange flesh is 87% water, 12% carbohydrates, 1% protein, and contains negligible fat ,orange flesh provides 47 calories, and is a rich source of vitamin C,
+         The vitamin C content depends on the cultivar and the production mode.
+    </h3>
+  </div>
+</div>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pomegranate.jpg">
+      <img  class="contrast" src= "pomegranate.jpg" alt="wheat" width="600" height="400">
+    </a>
+    <h3 class="desc">POMEGRANATE:it is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall. 
+        The pomegranate is rich in symbolic and mythological associations in many cultures.
+        The pomegranate was thought to have originated from Afghanistan and Iran before being introduced and exported to other parts of Asia, Africa, and Europe
+
+    </br></h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="grap.jpg">
+      <img class="contrast" src="grap.jpg" alt="pea" width="600" height="400">
+    </a>
+    <h3 class="desc"> GRAPES:it is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters.
+        Raw grapes are 81% water, 18% carbohydrates, 1% protein, and have negligible fat (table). A 100-gram (3+1⁄2-ounce) reference amount of raw grapes supplies 288 kilojoules (69 kilocalories) of food energy and a moderate amount of vitamin K (14% of the Daily Value), 
+        with no other micronutrients in significant amounts.
+    </h3>
+  </div>
+</div>
+</tr>
+</table>
+</body>
+</html>

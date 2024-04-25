@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+h3.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+body {
+    background-image: url('jc.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color:black;
+  }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+h1.center{
+    text-align:center;
+    color:magenta;
+    text-decoration:underline;
+    font-style:italic;
+}
+.contrast {filter: contrast(180%);}
+img:hover {
+  transform: scaleX(-1);
+}
+div:hover {
+  width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="center"  style="background-color:powderblue;"><marquee scrollamount="20" direction="right">SOILS:  CLAY SOIL, LOAM SOIL , SILT SOIL,RED SOIL</marquee></h1>
+<table cellpadding="10">
+ <tr>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="clay.jpg">
+      <img  class="contrast" src="clay.jpg" alt="mize" width="600" height="400">
+    </a>
+    <h3 class="desc"> CLAY SOIL: it  feel very sticky and rolls like plasticine when wet. • They can hold more total water than most other soil types and, 
+        although only about half of this is available to plants, crops seldom suffer from drought.
+        Clay soil particles attract and bind to nutrients like calcium, magnesium, and potassium that feed plants and help them grow. 
+        The innate clay minerals also make for a healthy vegetable garden bed.
+        
+
+</h3>
+  </div>
+</div>
+</tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="loam.jpg">
+      <img  class="contrast" src="loam.jpg" alt="rice" width="600" height="400">
+    </a>
+    <h3 class="desc"> BLACK SOIL:
+         found in the lava-covered areas are the most conspicuous. Those soils are often referred to as regur but are popularly known as “black cotton soils,” 
+        since cotton has been the most common traditional crop in areas where they are found. 
+        They are poor in humus yet highly moisture-retentive, thus responding well to irrigation.
+  </div>
+</div>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="silt.jpg">
+      <img  class="contrast" src= "silt.jpg" alt="wheat" width="600" height="400">
+    </a>
+    <h3 class="desc">SILT SOIL: it is a solid, dust-like sediment that water, ice, and wind transport and deposit.
+        Silt is made up of rock and mineral particles that are larger than clay but smaller than sand. 
+        Individual silt particles are so small that they are difficult to see. To be classified as silt, a particle must be less than .005 centimeters (.002 inches) across.
+         Silt is found in soil, along with other types of sediment such as clay, sand, and gravel.
+
+    </br></h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="red.jpeg">
+      <img class="contrast" src="red.jpeg" alt="pea" width="600" height="400">
+    </a>
+    <h3 class="desc"> RED SOIL: it is also known as Omnibus soil.
+        The presence of ferric oxide gives a red color to this soil.
+        This soil is mainly found in the eastern and southern parts of the Deccan plateau, Orissa, Chhattisgarh, and southern parts of the middle Ganga plain.
+        Wheat, pulses, tobacco, oilseeds, potatoes, etc. are the major crops cultivated in red soil.
+    </h3>
+  </div>
+</div>
+</tr>
+</table>
+</body>
+</html>

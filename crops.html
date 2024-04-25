@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+h3.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+body {
+    background-image: url('j.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+h1.center{
+    text-align:center;
+    color:magenta;
+    text-decoration:underline;
+    font-style:italic;
+}
+.contrast {filter: contrast(180%);}
+img:hover {
+  transform: scaleX(-1);
+}
+div:hover {
+  width: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="center" style="background-color:powderblue;"><marquee scrollamount="20" direction="right">CROPS:  MAIZE ,  RICE ,  WHEAT,  PEA </marquee></h1>
+<table cellpadding="10" bgcolor="red">
+ <tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="mizee.jpg">
+      <img  class="contrast" src="mizee.jpg" alt="mize" width="600" height="400">
+    </a>
+    <h3 class="desc"><b>MAIZE :</b> It is one of the most versatile emerging crops shaving wider adaptability under varied agro-climatic conditions. Globally, maize is known as the queen of cereals because it has the highest genetic yield potential among the cereals<br>
+Areas of Cultivation:Major wheat-growing states in India are Karnataka, Madhya Pradesh, Bihar, Tamil Nadu, Telangana, Maharashtra and Andhra Pradesh.<br>
+Major Export Destinations (2022-23): Bangladesh, Vietnam, Nepal, Malaysia and Sri Lanka.
+</h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ricee.jpg">
+      <img  class="contrast" src="ricee.jpg" alt="rice" width="600" height="400">
+    </a>
+    <h3 class="desc">RICE : It is our most important cultivated plant, feeding more people than any other crop. It is a n annual or short-lived perennial grass species native to Asia. Its domesticatic started 8 to 13 thousand years ago.<br>
+Areas of Cultivation: West Bengal, Bihar, eastern Uttar Pradesh, eastern Madhya Pradesh, northern Andhra Pradesh and Odisha<br>
+major Export Destinations: Punjab , Haryana, bangladesh,odisha</h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="whe.jpg">
+      <img  class="contrast" src= whe.jpg alt="wheat" width="600" height="400">
+    </a>
+    <h3 class="desc">WHEAT : It is a widely cultivated   as cereal grain that is a worldwide staple food. The many species of wheat together make up the genus Triticum. the most widely grown is common wheat (T. aestivum)<br>
+Area And Production:<br>
+Area: Up > Mp> Punjab
+Production: Up > Punjab > Harayana
+Productivity : Punjab (45q./ha) > Haryanas<br>
+Varieties of wheat:Norin 10 cultivar has created a new chapter in the history of wheat breeding. 
+Lerma rojo 64 –A, SONALIKA </h3>
+  </div>
+</div>
+</tr>
+<tr>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="peaa.jpg">
+      <img class="contrast" src="peaa.jpg" alt="pea" width="600" height="400">
+    </a>
+    <h3 class="desc">PEA: (Pisum sativum), herbaceous annual plant in the family Fabaceae, grown virtually worldwide for its edible seeds. Peas can be bought fresh, canned, or frozen, and dried peas are commonly used in soups. Some varieties, including sugar peas and snow peas, produce pods that are edible and are eaten raw or cooked like green beans; they are popular in East Asian cuisines. The plants are fairly easy to grow, and the seeds are a good source of protein and dietary fibre</h3>
+  </div>
+</div>
+</tr>
+</table>
+</body>
+</html>
